@@ -58,7 +58,7 @@ body {
 .left-column:hover, .right-column:hover, .image-center img:hover, .header:hover, .contact:hover, .education:hover, .professional-experience:hover, article:hover {
     transform: scale(1.05);
     z-index: 10;
-    background: e8f4dc;
+    background: #e8f4dc;
 }
 
 .header h2, .contact h1, .contact h2 {
