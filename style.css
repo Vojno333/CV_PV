@@ -44,7 +44,7 @@ body {
     border: 2px solid #9FA975;
     margin: 2px;
     padding: 10px;
-    background-color: #E8F4DC;
+    background: #E8F4DC;
 }
 
 .education article, .professional-experience article {
@@ -52,13 +52,13 @@ body {
     margin: 5px 0;
     padding: 5px;
     text-align: left;
-    background-color: #E8F4DC;
+    background: #E8F4DC;
 }
 
 .left-column:hover, .right-column:hover, .image-center img:hover, .header:hover, .contact:hover, .education:hover, .professional-experience:hover, article:hover {
     transform: scale(1.05);
     z-index: 10;
-    background-color: #E8F4DC;
+    background: #E8F4DC;
 }
 
 .header h2, .contact h1, .contact h2 {
@@ -78,7 +78,7 @@ body {
 .education, .professional-experience {
     width: 48%;
     padding: 10px;
-    background-color: #E8F4DC;
+    background: #E8F4DC;
 }
 
 h2, h3, h4, ul, li {
