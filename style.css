@@ -44,7 +44,6 @@ body {
     border: 2px solid #9FA975;
     margin: 2px;
     padding: 10px;
-    background: #E8F4DC;
 }
 
 .education article, .professional-experience article {
@@ -52,7 +51,6 @@ body {
     margin: 5px 0;
     padding: 5px;
     text-align: left;
-    background: #E8F4DC;
 }
 
 .left-column:hover, .right-column:hover, .image-center img:hover, .header:hover, .contact:hover, .education:hover, .professional-experience:hover, article:hover {
@@ -78,7 +76,6 @@ body {
 .education, .professional-experience {
     width: 48%;
     padding: 10px;
-    background: #E8F4DC;
 }
 
 h2, h3, h4, ul, li {
