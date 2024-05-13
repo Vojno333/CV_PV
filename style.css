@@ -53,8 +53,20 @@ body {
     text-align: left;
 }
 
-.left-column:hover, .right-column:hover, .image-center img:hover, .header:hover, .contact:hover, .education:hover, .professional-experience:hover, article:hover {
+.left-column:hover, .right-column:hover, .image-center img:hover, .header:hover, .contact:hover, .education:hover, article:hover {
     transform: scale(1.05) translateX(50px);
+    z-index: 10;
+    background: #E8F4DC;
+}
+
+.left-column:hover, .right-column:hover, .professional-experience:hover, article:hover {
+    transform: scale(1.05) translateX(-50px);
+    z-index: 10;
+    background: #E8F4DC;
+}
+
+.left-column:hover, .right-column:hover, .image-center img:hover, .header:hover, .contact:hover {
+    transform: scale(1.05);
     z-index: 10;
     background: #E8F4DC;
 }
